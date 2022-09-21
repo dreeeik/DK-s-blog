@@ -96,14 +96,13 @@ li {
 
 
 .containerWrapper {
-
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .containerr {
-  border: 1px solid white;
+  border: 1px solid rgb(96, 96, 96);
   padding: 8px;
   max-width: 800px;
   background-color: transparent;
