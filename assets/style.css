@@ -37,7 +37,6 @@ nav {
   text-align: center;
   line-height: 39px;
   padding-top: 150px;
-  
 }
 
 .profile-pic {
@@ -50,7 +49,6 @@ nav {
   width: 100%;
   background: black;
   opacity: 0.9;
-
 }
 
 .background-img::after {
@@ -73,7 +71,6 @@ nav {
   margin: auto;
   text-align: center;
   line-height: 29px;
-
 }
 
 .logo-tipo {
@@ -96,7 +93,6 @@ li {
   padding: 110px 0 60px 0;
 }
 
-
 .containerWrapper {
   display: flex;
   justify-content: center;
@@ -105,6 +101,7 @@ li {
 
 .containerr {
   border: 1px solid rgb(96, 96, 96);
+  box-shadow: 1px 1px 5px 1px #585858;
   padding: 8px;
   max-width: 800px;
   background-color: transparent;
@@ -112,6 +109,7 @@ li {
   padding: 10px;
   margin: auto 5px;
   color: white;
+  margin-top: 10px;
 }
 
 .contentt {
@@ -135,14 +133,12 @@ li {
   justify-content: space-between;
   text-align: center;
   font-size: 24px;
-
 }
 
 .accordion_header,
 span {
   text-align: center;
   width: 780px;
-
 }
 
 .accordion_content {
@@ -153,18 +149,18 @@ span {
   transition: all .5s ease;
   font-size: 20px;
   text-align: center;
-
 }
 
 .active {
   padding-bottom: 10px;
+  transition: 2.2s;
 }
 
 span,
 .icon {
   font-weight: 600;
+  transition: 1s;
 }
-
 
 .title_article {
   color: white;
@@ -181,22 +177,32 @@ footer {
   background-color: transparent;
   color: white;
   margin-top: 70px;
-  
 }
+
+
+
 @media screen and (max-width: 768px){
+  .title_article{
+    max-width: 100vw;
+  }
+
   .profile-pic{
     max-width: 200px;
     margin-top: 120px;
   }
+
   .accordion_header{
     max-width: 100vw;
   }
+
   .accordion_content{
     max-width: 100vw;
   }
+
   .nav-list img {
     display: none;
   }
+
   .nav-list{
     margin: 0px;
     padding: 0px;
@@ -208,10 +214,13 @@ footer {
     max-width: 99vw;
     position: absolute;
   }
+
   footer{
     max-width: 100vw;
   }
- .containerr{
-  max-width: 100vw;
- }
+
+  .containerr{
+    max-width: 100vw;
+  }
+  
 }
