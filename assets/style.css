@@ -193,7 +193,9 @@ footer {
   margin-top: 70px;
   
 }
-
+.a a{
+  margin-right: 6px;
+}
 
 
 @media screen and (max-width: 768px){
