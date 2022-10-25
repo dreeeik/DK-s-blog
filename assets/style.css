@@ -136,6 +136,10 @@ span {
   text-align: center;
   width: 780px;
 }
+.tags{
+  display: flex;
+  text-align: initial;
+}
 .conteudo {
   margin-left: 50px;
   margin-right: 15px;
@@ -147,7 +151,7 @@ span {
 }
 .active {
   padding-bottom: 10px;
-  transition: 2.2s;
+  transition: 1.7s;
 }
 span,
 .icon {
